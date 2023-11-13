@@ -2,7 +2,21 @@
     color: yellow;
 }
 
-.text-box~h3    {
-    color: pink;
+div>h3 { 
+color: pink;
 }
+
+#greycol {
+    color: gray;
+} 
+
+p~div {
+    color: red;
+}
+
+div~p {
+    color: green;
+}
+
+
 
