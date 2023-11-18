@@ -1,8 +1,6 @@
-.yellow {
-    color: yellow;
-}
 
-div>h3 { 
+div>h3:first-child 
+{ 
 color: pink;
 }
 
@@ -10,13 +8,19 @@ color: pink;
     color: gray;
 } 
 
-p~div {
+div>p:first-child {
     color: red;
 }
 
-div~p {
+ div~p {
     color: green;
+} 
+
+.yellow {
+    color: yellow;
 }
 
-
+li:nth-child(2n) {
+    background-color: aqua;
+}
 
